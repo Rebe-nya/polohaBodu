@@ -4,7 +4,7 @@ let yInput = document.getElementById("yInput");
 let btn = document.getElementById("btn");
 let txt = document.getElementById("txt");
 
-//functions
+//function
 function square(x, y) {
     if ((x === 0 || x === 50) && (y === 0 || y === 50)){
         txt.style.color = "yellow";
