@@ -6,7 +6,7 @@ let txt = document.getElementById("txt");
 
 //functions
 function square(x, y) {
-    if (x === 0 || x === 50){
+    if (x === 0 || x === 50 || y === 0 || y === 50){
         txt.style.color = "yellow";
         txt.innerHTML = "Leží na hraně čtverce"; 
     }
